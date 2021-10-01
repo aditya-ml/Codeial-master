@@ -1,0 +1,44 @@
+// body{
+//     margin: 0;
+//     /* text-align: center; */
+    
+//     background-color: rgb(245, 250, 223);
+// }
+// h1{
+//     margin: 10px;
+//     font-family: sans-serif;
+//     color: rgb(0, 102, 255);
+// }
+
+// form{
+
+//     input{
+//         background-color: transparent;
+//         border: 0px solid;
+//         border-bottom: 2px solid brown;
+//         font-size: 1rem;
+//         font-family: sans-serif;
+//         margin: 10px;
+//         padding: 10px;
+//     }
+// }
+
+// #submit-button{
+//     background-color: burlywood;
+//     border: 0px solid;
+//     border-radius: 1.2rem;
+
+//     &:hover{
+//         cursor: pointer;
+//         box-shadow: 2px 2px black;
+//         background-color: rgb(65, 226, 92);
+//     }
+// }
+body{
+    margin: 0;
+    /* text-align: center; */
+
+    #layout-main{
+        height: 100%;
+    }
+}

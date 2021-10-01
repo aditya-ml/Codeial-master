@@ -1,0 +1,30 @@
+// footer{
+//     background-color: rgb(175, 175, 175);
+//     margin-top: 95%;
+//     padding: 10px;
+//     span{
+//         font-family: sans-serif;
+//         color: whitesmoke;
+//         margin: 10px;
+//         padding: 10px;
+//         margin-bottom: 20px;    
+//     }
+// }
+#layout-footer{
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    background: grey;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+
+    .footer-nav{
+        ul{
+            list-style: none;
+        }
+    }
+}
