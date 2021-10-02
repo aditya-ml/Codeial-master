@@ -6,12 +6,13 @@ const env  = require('./environment');
 
 // tell passport to use a new strategy for google login
 passport.use(new googleStrategy({
-        // clientID: "549867391163-a3128o2mhgbldsaovjm1afakirtmli5v.apps.googleusercontent.com",
-        // clientSecret: "6YgPJZf8MgplQieOkBSZcAYr",
-        // callbackURL: "http://localhost:8000/users/auth/google/callback",
-    clientID: env.google_clientID,
-    clientSecret: env.google_clientSecret,
-    callbackURL: env.google_callbackURL,
+        clientID: "549867391163-a3128o2mhgbldsaovjm1afakirtmli5v.apps.googleusercontent.com",
+        clientSecret: "6YgPJZf8MgplQieOkBSZcAYr",
+        callbackURL: "http://localhost:8000/users/auth/google/callback",
+    // clientID: env.google_clientID,
+
+    // clientSecret: env.google_clientSecret,
+    // callbackURL: env.google_callbackURL,
 
 },
 

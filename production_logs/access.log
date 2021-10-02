@@ -881,3 +881,13 @@
 [0mGET /js/home_posts.js [33m404[0m 18.052 ms - 155[0m
 [0mGET /js/toggle_likes.js [33m404[0m 35.672 ms - 157[0m
 [0mGET /js/chat_engine.js [33m404[0m 37.824 ms - 156[0m
+[0mGET / [32m200[0m 234.101 ms - 13722[0m
+[0mGET /js/home_post_comments.js [33m404[0m 39.133 ms - 163[0m
+[0mGET /js/home_posts.js [33m404[0m 40.733 ms - 155[0m
+[0mGET /js/toggle_likes.js [33m404[0m 14.404 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 21.509 ms - 156[0m
+[0mGET /js/home_post_comments.js [33m404[0m 28.395 ms - 163[0m
+[0mGET /js/home_posts.js [33m404[0m 5.537 ms - 155[0m
+[0mGET /js/toggle_likes.js [33m404[0m 2.535 ms - 157[0m
+[0mGET /js/chat_engine.js [33m404[0m 3.796 ms - 156[0m
+[0mGET /favicon.ico [33m404[0m 4.672 ms - 150[0m
