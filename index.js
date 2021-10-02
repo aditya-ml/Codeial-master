@@ -52,8 +52,8 @@ app.use(cors());
 
 //access static files
 // app.use(express.static('./assets'));
-app.use(express.static(env.asset_path));
-
+// app.use(express.static(env.asset_path));
+app.use(express.static(path.join(__dirname, env.asset_path)));
 
 // mae the uploads path available to the browser
 app.use('/uploads', express.static(__dirname + '/uploads'));
